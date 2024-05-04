@@ -1,4 +1,4 @@
-package com.tugas.ats.config;
+package com.example.pemograman.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

@@ -1,4 +1,4 @@
-package com.tugas.ats.model;
+package com.example.pemograman.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,11 +8,11 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="students")
-public class Student{
-
+public class Student {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+      private int id;
     private String name;
     private String kelas;
 
@@ -39,6 +39,4 @@ public class Student{
     public void setKelas(String kelas){
         this.kelas = kelas;
     }
-    
-
 }

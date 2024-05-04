@@ -1,11 +1,11 @@
-package com.tugas.ats.repository;
+package com.example.pemograman.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.tugas.ats.model.Student;
+import com.example.pemograman.model.Student;
 
 @Repository
 public interface StudentRepository extends CrudRepository<Student, Integer>{
